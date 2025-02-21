@@ -46,6 +46,7 @@ let kdarts_ribbon = {
 					kdarts_ribbon.old_pageX = e.clientX;
 				}
 			}
+			
 		}).on('mouseup', function() {
 			kdarts_ribbon.isDown = false;
 			kdarts_ribbon.$el.removeClass('is-grabbed');
