@@ -56,8 +56,8 @@
 		11.1. Elements
 		11.2. Contact Elements
 		11.3. Services Block
-		11.4. Testimonials Grid
-		11.5. Testimonials Carousel
+		11.4. About Grid
+		11.5. About Carousel
 		11.6. Maintenance Page
 		11.7. kdarts Kenburns
 		11.8. Counter Item
@@ -2310,122 +2310,122 @@ p.kdarts-intro {
 	margin-bottom: 15px;
 }
 
-/* --- Testimonials Grid --- */
-.kdarts-testimonials-grid {
+/* --- About Grid --- */
+.kdarts-about-grid {
 	margin: -30px -20px;
 	display: flex;
 	flex-wrap: wrap;
 }
-.kdarts-testimonials-grid .kdarts-testimonials-item {
+.kdarts-about-grid .kdarts-about-item {
 	width: calc(33.33% - 40px);
 	margin: 30px 20px;
 }
-.kdarts-testimonials-grid .kdarts-testimonials-item__author {
+.kdarts-about-grid .kdarts-about-item__author {
 	display: flex;
 	justify-content: space-between;
 	position: relative;
 	z-index: 3;
 }
-.kdarts-testimonials-grid .kdarts-testimonials-item__author img {
+.kdarts-about-grid .kdarts-about-item__author img {
 	width: 100px;
 	border-radius: 50%;
 	box-shadow: 2px 3px 15px rgba(0,0,0,0.3);
 }
-.kdarts-testimonials-grid .kdarts-testimonials-item__author--name {
+.kdarts-about-grid .kdarts-about-item__author--name {
 	text-align: right;
 }
-.kdarts-testimonials-grid .kdarts-testimonials-item__author--name h6 {
+.kdarts-about-grid .kdarts-about-item__author--name h6 {
 	margin: 12px 0 0 0;
 }
-.kdarts-testimonials-grid .kdarts-testimonials-item__content {
+.kdarts-about-grid .kdarts-about-item__content {
 	background: #17171B;
 	margin: -30px 0 0 20px;
 	padding: 10px 20px 18px 20px;
 }
-.kdarts-testimonials-grid .kdarts-testimonials-item__stars {
+.kdarts-about-grid .kdarts-about-item__stars {
 	text-align: right;
 	margin: 0 0 2px 0;
 }
-.kdarts-testimonials-grid .kdarts-testimonials-item__stars:before {
+.kdarts-about-grid .kdarts-about-item__stars:before {
 	font-family: "LineAwesome";
 	color: #5C5C60;
 	font-size: 16px;
 	line-height: 20px;
 }
-.kdarts-testimonials-grid .kdarts-testimonials-item__stars.kdarts-stars0:before {
+.kdarts-about-grid .kdarts-about-item__stars.kdarts-stars0:before {
 	content: '\f31b\f31b\f31b\f31b\f31b';
 }
-.kdarts-testimonials-grid .kdarts-testimonials-item__stars.kdarts-stars1:before {
+.kdarts-about-grid .kdarts-about-item__stars.kdarts-stars1:before {
 	content: '\f318\f31b\f31b\f31b\f31b';
 }
-.kdarts-testimonials-grid .kdarts-testimonials-item__stars.kdarts-stars2:before {
+.kdarts-about-grid .kdarts-about-item__stars.kdarts-stars2:before {
 	content: '\f318\f318\f31b\f31b\f31b';
 }
-.kdarts-testimonials-grid .kdarts-testimonials-item__stars.kdarts-stars3:before {
+.kdarts-about-grid .kdarts-about-item__stars.kdarts-stars3:before {
 	content: '\f318\f318\f318\f31b\f31b';
 }
-.kdarts-testimonials-grid .kdarts-testimonials-item__stars.kdarts-stars4:before {
+.kdarts-about-grid .kdarts-about-item__stars.kdarts-stars4:before {
 	content: '\f318\f318\f318\f318\f31b';
 }
-.kdarts-testimonials-grid .kdarts-testimonials-item__stars.kdarts-stars5:before {
+.kdarts-about-grid .kdarts-about-item__stars.kdarts-stars5:before {
 	content: '\f318\f318\f318\f318\f318';
 }
-.kdarts-testimonials-grid.kdarts-testimonials-grid--small .kdarts-testimonials-item {
+.kdarts-about-grid.kdarts-about-grid--small .kdarts-about-item {
 	text-align: center;
 	margin: 20px;
 }
-.kdarts-testimonials-grid.kdarts-testimonials-grid--small .kdarts-testimonials-item__author {
+.kdarts-about-grid.kdarts-about-grid--small .kdarts-about-item__author {
 	display: inline-block;
 	margin: 0 auto 20px auto;
 	min-height: 50px;
 }
-.kdarts-testimonials-grid.kdarts-testimonials-grid--small .kdarts-testimonials-item__author--image {
+.kdarts-about-grid.kdarts-about-grid--small .kdarts-about-item__author--image {
 	position: absolute;
 	left: 0;
 	top: 0;
 }
-.kdarts-testimonials-grid.kdarts-testimonials-grid--small .kdarts-testimonials-item__author--image img {
+.kdarts-about-grid.kdarts-about-grid--small .kdarts-about-item__author--image img {
 	width: 50px;
 	box-shadow: none;
 }
-.kdarts-testimonials-grid.kdarts-testimonials-grid--small .kdarts-testimonials-item__author--name {
+.kdarts-about-grid.kdarts-about-grid--small .kdarts-about-item__author--name {
 	padding: 7px 0 0 25px;
 }
-.kdarts-testimonials-grid.kdarts-testimonials-grid--small .kdarts-testimonials-item__author--name h6 {
+.kdarts-about-grid.kdarts-about-grid--small .kdarts-about-item__author--name h6 {
 	margin: 0;
 	position: relative;
 	z-index: 5;
 	text-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
-.kdarts-testimonials-grid.kdarts-testimonials-grid--small .kdarts-testimonials-item__stars {
+.kdarts-about-grid.kdarts-about-grid--small .kdarts-about-item__stars {
 	display: none;
 }
-.kdarts-testimonials-grid.kdarts-testimonials-grid--small .kdarts-testimonials-item__content {
+.kdarts-about-grid.kdarts-about-grid--small .kdarts-about-item__content {
 	text-align: left;
 	margin: 0;
 	padding: 30px 40px 30px 40px;
 }
 
-/* --- Testimonials Carousel --- */
-.kdarts-testimonials-carousel .kdarts-testimonials-item {
+/* --- About Carousel --- */
+.kdarts-about-carousel .kdarts-about-item {
 	cursor: grab;
 }
 
-.kdarts-testimonials-carousel .kdarts-testimonials-item__content {
+.kdarts-about-carousel .kdarts-about-item__content {
 	font-size: 20px;
 	line-height: 35px;
 }
-.kdarts-testimonials-carousel .kdarts-testimonials-item__content p:first-child:before,
-.kdarts-testimonials-carousel .kdarts-testimonials-item__content p:last-child:after {
+.kdarts-about-carousel .kdarts-about-item__content p:first-child:before,
+.kdarts-about-carousel .kdarts-about-item__content p:last-child:after {
 	display: inline;
 }
-.kdarts-testimonials-carousel .kdarts-testimonials-item__content p:first-child:before {
+.kdarts-about-carousel .kdarts-about-item__content p:first-child:before {
 	content: '\201c';
 }
-.kdarts-testimonials-carousel .kdarts-testimonials-item__content p:last-child:after {
+.kdarts-about-carousel .kdarts-about-item__content p:last-child:after {
 	content: '\201d';
 }
-.kdarts-testimonials-carousel .kdarts-testimonials-item__author {
+.kdarts-about-carousel .kdarts-about-item__author {
 	margin: 27px auto 0 auto;
 	display: inline-flex;
 	align-items: center;
@@ -2434,7 +2434,7 @@ p.kdarts-intro {
 	text-align: right;
 	min-height: 50px;
 }
-.kdarts-testimonials-carousel .kdarts-testimonials-item__author .kdarts-testimonials-item__author--image {
+.kdarts-about-carousel .kdarts-about-item__author .kdarts-about-item__author--image {
 	position: absolute;
 	left: 0;
 	top: 50%;
@@ -2442,26 +2442,26 @@ p.kdarts-intro {
 	height: 50px;
 	margin: -25px 0 0 0;
 }
-.kdarts-testimonials-carousel .kdarts-testimonials-item__author .kdarts-testimonials-item__author--image img {
+.kdarts-about-carousel .kdarts-about-item__author .kdarts-about-item__author--image img {
 	border-radius: 50%;
 }
-.kdarts-testimonials-carousel .kdarts-testimonials-item__author--name {
+.kdarts-about-carousel .kdarts-about-item__author--name {
 	position: relative;
 	z-index: 3;
 }
-.kdarts-testimonials-carousel .kdarts-testimonials-item__author h6 {
+.kdarts-about-carousel .kdarts-about-item__author h6 {
 	margin: 0;
 	text-shadow: 0 0 10px rgba(0,0,0,0.25);
 }
-.kdarts-testimonials-nav span {
+.kdarts-about-nav span {
 }
 
-.kdarts-testimonials-carousel .tns-nav {
+.kdarts-about-carousel .tns-nav {
 	text-align: center;
 	margin: 0 auto;
 	padding: 30px 0 0 0;
 }
-.kdarts-testimonials-carousel .tns-nav button {
+.kdarts-about-carousel .tns-nav button {
 	width: 10px;
 	height: 10px;
 	background: #ffffff;
@@ -2473,7 +2473,7 @@ p.kdarts-intro {
 	padding: 0;
 	margin: 0 10px;
 }
-.kdarts-testimonials-carousel .tns-nav button.tns-nav-active {
+.kdarts-about-carousel .tns-nav button.tns-nav-active {
 	opacity: 0.75;
 	transform: scale(1.2);	
 }

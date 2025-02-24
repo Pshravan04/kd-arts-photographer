@@ -360,33 +360,33 @@ body section.kdarts-section.hide-on-desktop {
 	}
 	
 	/* --- Elements --- */
-	/* Testimonials */
-	.kdarts-testimonials-grid {
+	/* About */
+	.kdarts-about-grid {
 		margin: -20px -15px;
 	}
-	.kdarts-testimonials-grid .kdarts-testimonials-item {
+	.kdarts-about-grid .kdarts-about-item {
 		margin: 20px 15px;
 		width: calc(33.33% - 30px);
 	}
-	.kdarts-testimonials-grid .kdarts-testimonials-item__author {
+	.kdarts-about-grid .kdarts-about-item__author {
 		position: relative;
 		min-height: 80px;
 		justify-content: flex-end;
 	}
-	.kdarts-testimonials-grid .kdarts-testimonials-item__author--image {
+	.kdarts-about-grid .kdarts-about-item__author--image {
 		position: absolute;
 		left: 0;
 		top: 0;
 	}
-	.kdarts-testimonials-grid .kdarts-testimonials-item__author img {
+	.kdarts-about-grid .kdarts-about-item__author img {
 		width: 80px;
 		height: auto;
 	}
-	.kdarts-testimonials-grid .kdarts-testimonials-item__author--name {
+	.kdarts-about-grid .kdarts-about-item__author--name {
 		position: relative;
 		z-index: 5;
 	}
-	.kdarts-testimonials-grid .kdarts-testimonials-item__content {
+	.kdarts-about-grid .kdarts-about-item__content {
 		margin: -20px 0 0 0;
 	}
 	
@@ -726,10 +726,10 @@ body section.kdarts-section.hide-on-desktop {
 	}
 	
 	/* --- Elements --- */
-	.kdarts-testimonials-grid {
+	.kdarts-about-grid {
 		margin: -20px -15px;
 	}
-	.kdarts-testimonials-grid .kdarts-testimonials-item {
+	.kdarts-about-grid .kdarts-about-item {
 		margin: 20px 15px;
 		width: calc(50% - 30px);
 	}
@@ -1214,11 +1214,11 @@ body section.kdarts-section.hide-on-desktop {
 		padding: 30px 20px 24px 20px;
 	}
 	
-	/* --- Testimonials Grid --- */
-	.kdarts-testimonials-grid {
+	/* --- About Grid --- */
+	.kdarts-about-grid {
 		margin: -20px 0;
 	}
-	.kdarts-testimonials-grid .kdarts-testimonials-item {
+	.kdarts-about-grid .kdarts-about-item {
 		margin: 20px 0;
 		width: 100%;
 	}
@@ -1267,7 +1267,7 @@ body section.kdarts-section.hide-on-desktop {
 		bottom: 70px;
 	}
 	
-	.kdarts-testimonials-carousel .kdarts-testimonials-item__content {
+	.kdarts-about-carousel .kdarts-about-item__content {
 		font-size: 16px;
 		line-height: 28px;
 	}

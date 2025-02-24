@@ -193,7 +193,7 @@ kdarts.cursor = {
 			jQuery(this).on('mouseleave', function() {
 				kdarts.cursor.$el.removeClass('int-grab-h');
 			});
-		}).on('mouseenter', '.kdarts-testimonials-carousel .tns-ovh', function() {
+		}).on('mouseenter', '.kdarts-about-carousel .tns-ovh', function() {
 			kdarts.cursor.$el.addClass('int-grab-h');
 			jQuery(this).on('mouseleave', function() {
 				kdarts.cursor.$el.removeClass('int-grab-h');
@@ -1030,7 +1030,7 @@ kdarts.init = function() {
 					mouseDrag: true,
 				};
 		
-			if ($parent.hasClass('kdarts-testimonials-carousel')) {
+			if ($parent.hasClass('kdarts-about-carousel')) {
 				kdarts_tns_options.autoHeight = true;
 				kdarts_tns_options.center = true;
 				kdarts_tns_options.nav = true;
@@ -1042,7 +1042,7 @@ kdarts.init = function() {
 			kdarts_tns[$this.attr('id')] = tns(kdarts_tns_options);
 			
 			// After Init Functions
-			if ($parent.hasClass('kdarts-testimonials-carousel')) {
+			if ($parent.hasClass('kdarts-about-carousel')) {
 				kdarts_tns[$this.attr('id')].events.on('transitionEnd', kdarts.sScroll.layout);
 			}
 		});
